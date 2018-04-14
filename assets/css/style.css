@@ -230,6 +230,10 @@ textarea {
   color: orange;
 
 }
+.work {
+  margin: 0 auto;
+  text-align: center;
+}
 
 input[type=text],
 input[type=email],
@@ -254,17 +258,16 @@ input[type=submit] {
 }
 @media screen and (max-width: 980px) {
     .main-section {
-      margin: 20px 0 0 15px;
+      margin: 20px 0 10px 15px;
     }
     .sidebar {
       margin-top: 20px;
       margin-right:10px;
     }
-
 }
 @media screen and (max-width: 768px) {
   .main-section{
-    margin-left: 55px;
+    margin-left: 55px
 
   }
   .sidebar {
@@ -299,4 +302,7 @@ input[type=submit] {
    #masthead {
      position: static;
    }
-   
+   #main-container {
+     padding: 2px;
+   }
+  }
